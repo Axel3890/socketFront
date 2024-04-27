@@ -70,7 +70,7 @@ return (
     <div className="flex-1 overflow-auto p-4">
         <div className="flex flex-col space-y-4">
           {messages.map((msg, index) => (
-            <div key={index} className={`flex justify-${msg.from === 'Me' ? 'end' : 'start'}`}>
+            <div key={index} className={`flex ${msg.from === 'Me' ? 'justify-end' : 'justify-start'}`}>
               {msg.from !== 'Me' && (
                 <img
                   alt="Avatar"
