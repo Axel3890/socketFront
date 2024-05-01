@@ -50,7 +50,7 @@ return (
           width={40}
         />
         <div>
-          <p className="text-sm font-medium">John Doe</p>
+          <p className="text-sm font-medium">Axel</p>
           <p className="text-xs text-gray-500 dark:text-gray-400">Online</p>
         </div>
       </div>
@@ -86,7 +86,7 @@ return (
               )}
               <div className={`max-w-[70%] rounded-lg ${msg.from === 'Me' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'} p-3 shadow-md dark:bg-gray-800 dark:text-gray-50`}>
                 <p>{msg.body}</p>
-                <p className="mt-1 text-xs text-gray-300">3:45 PM</p>
+                <p className="mt-1 text-xs text-gray-300">12:00 PM</p>
               </div>
               {msg.from === 'Me' && (
                 <img
